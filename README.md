@@ -51,6 +51,7 @@ E.g: `pushfrom 36`, `pushfrom 0x24`, and `pushfrom #100100` All yield the same r
 There are many non-opcode keywords for things like perform operations and
 common RAM locations.\
 These are all perform operations as of version 1.2.6:
+
 number | keyword | operation
 --- | --- | ---
 0 | nothing | Does nothing.
