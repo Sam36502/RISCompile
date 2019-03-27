@@ -16,7 +16,6 @@ If you need anymore help on using the Compiler just type:
 `java -jar RISComp -h` or `java -jar RISComp --help`
 
 ## Header
-
 Every RIS program starts with a RAM header that lets you preset values to be loaded into
 RAM when the program starts. The header is simply formatted like an array, for example 
 `{1, 2, 3}` loads 1, 2, and 3 into memory at addresses 0, 1, and 2
@@ -47,3 +46,18 @@ a prefix:\
 `0x` for Hexadecimal.\
 `#` for Binary.\
 E.g: `pushfrom 36`, `pushfrom 0x24`, and `pushfrom #100100` All yield the same result.
+
+## Non-opcode Keywords
+There are many non-opcode keywords for things like perform operations and
+common RAM locations.\
+These are all perform operations as of version 1.2.6:
+number | keyword | operation
+--- | --- | ---
+0 | nothing | Does nothing.
+1 | addition | Pops top 2 values off the stack and pushes their sum back onto the stack.
+2 | subtraction | Pops top 2 values off the stack and pushes their difference onto the stack.
+3 | multiplication | Pops top 2 values off the stack and pushes their product onto the stack.
+4 | division | Pops top 2 values off stack and pushes their quotient onto the stack.
+5 | modulo | Pops top 2 values off stack and pushes the remainder onto the stack.
+6 | increment | Pops top value off stack and pushes the value plus 1.
+7 | decrement | Pops top value off stack and pushes the value minus 1.
