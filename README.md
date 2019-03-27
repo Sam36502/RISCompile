@@ -62,3 +62,13 @@ Number | Keyword | Operation
 5 | modulo | Pops top 2 values off stack and pushes the remainder onto the stack.
 6 | increment | Pops top value off stack and pushes the value plus 1.
 7 | decrement | Pops top value off stack and pushes the value minus 1.
+
+And these are the system variables with keywords
+
+Address | Keyword | Purpose
+--- | --- | ---
+0x2A | top | The value of the top of the stack.
+0x2B | stdin | Standard input from the console.
+0x2C | stdout | Standard output to the console.
+0x2D | stderr | Standard error output for runtime errors, etc.
+0x2F | soundout | An output byte for simple tones.
