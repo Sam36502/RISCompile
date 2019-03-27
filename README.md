@@ -18,8 +18,8 @@ If you need anymore help on using the Compiler just type:
 ## Header
 
 Every RIS program starts with a RAM header that lets you preset values to be loaded into
-RAM when the program starts. The header is simply formatted like an Array:
-`{1, 2, 3}` Loads 1, 2, and 3 into memory at addresses 0, 1, and 2
+RAM when the program starts. The header is simply formatted like an array, for example 
+`{1, 2, 3}` loads 1, 2, and 3 into memory at addresses 0, 1, and 2
 The Header can also span multiple lines to help break up large blocks of Data:
 ```
 //ASCII values for "Hello, World!"
