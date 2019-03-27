@@ -8,9 +8,10 @@ odd or inefficient code, then just let me know, how I could have done it better.
 
 ## Opcode Keywords
 All RISCI-64 Opcodes have a "verbose" version
-|Binary|Decimal|Verbose |
-|------|-------|--------|
-|00    |0      |perform |
-|01    |1      |popto   |
-|10    |2      |pushfrom|
-|11    |3      |jumpif  |
+
+Binary | Decimal | Verbose
+--- | --- | ---
+00 | 0 | perform
+01 | 1 | popto
+10 | 2 | pushfrom
+11 | 3 | jumpif
