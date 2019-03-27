@@ -52,7 +52,7 @@ There are many non-opcode keywords for things like perform operations and
 common RAM locations.\
 These are all perform operations as of version 1.2.6:
 
-number | keyword | operation
+Number | Keyword | Operation
 --- | --- | ---
 0 | nothing | Does nothing.
 1 | addition | Pops top 2 values off the stack and pushes their sum back onto the stack.
