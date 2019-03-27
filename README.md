@@ -46,4 +46,4 @@ to make it read them as Hex or Binary you have to give the number
 a prefix:\
 `0x` for Hexadecimal.\
 `#` for Binary.\
-E.g: `pushfrom 36`, `pushfrom 0x24`, and `pushfrom #00100100` All yield the same result.
+E.g: `pushfrom 36`, `pushfrom 0x24`, and `pushfrom #100100` All yield the same result.
