@@ -26,10 +26,13 @@ The Header can also span multiple lines to help break up large blocks of Data:
 119, 111, 114, 108, 100, 21}
 ```
 You probably also noticed The Comment.
-This is the Syntax for All Comments, but Block Comments don't work.
+Comments are made with a simple double slash `//`.
+There are no block comments.
 
 ## Opcode Keywords
-All RISCI-64 Opcodes have a "verbose" version
+Here are the opcodes that can be used on the
+RISCI-64. These are the only commands available
+to be run in a ris program.
 
 Binary | Decimal | Verbose
 --- | --- | ---
